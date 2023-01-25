@@ -1,11 +1,10 @@
-# 1 done
 import random
 import math
 import calendar
 
 userAnswer = int(input("Enter a number: "))
 
-
+# 1 done
 def func(userResponse):
     g = random.randint(0, 10)
     if userResponse == g:

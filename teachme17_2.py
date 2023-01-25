@@ -10,6 +10,7 @@ b = int(input('Enter the length of leg of right triangle: '))
 
 c = int(input('Enter the another leg length of right triangle: '))
 
+
 class GeometricFigure(ABC):
 
     def get_perimeter(self):
@@ -17,6 +18,7 @@ class GeometricFigure(ABC):
 
     def get_area(self):
         pass
+
 
 class Circle(GeometricFigure):
 
@@ -29,6 +31,7 @@ class Circle(GeometricFigure):
     def get_area(self):
         return self.radius ** 2 * pi
 
+
 class Square(GeometricFigure):
 
     def __init__(self, side):
@@ -39,6 +42,7 @@ class Square(GeometricFigure):
 
     def get_area(self):
         return self.side ** 2 
+
 
 circle_obj = Circle(int(r))
 

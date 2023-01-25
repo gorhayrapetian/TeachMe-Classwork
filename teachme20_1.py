@@ -20,8 +20,8 @@ original_dict = {'Jack': 38, 'Michael': 48, 'Gvidon': 25}
 
 new_dict = {k: v for (k, v) in original_dict.items() if v % 2 == 0 if v > 30}
 
-other_dict = {k: 'old' if v > 40 else 'young' for (k, v) in original_dict.items()}
-
 print(new_dict)
+
+other_dict = {k: 'old' if v > 40 else 'young' for (k, v) in original_dict.items()}
 
 print(other_dict)

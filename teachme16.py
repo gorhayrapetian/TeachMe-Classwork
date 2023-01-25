@@ -4,7 +4,7 @@ class Person:
 
     @property
     def age(self):
-        print('getter method called')
+        print('Getter method called!')
         return self.__age
 
     @age.setter

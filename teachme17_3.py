@@ -1,9 +1,9 @@
 from abc import ABC
 from cmath import sqrt
 
-b = int(input('Enter the length of leg of right triangle: '))
+b = int(input('Enter the length of the opposite leg of right triangle: '))
 
-c = int(input('Enter the another leg length of right triangle: '))
+c = int(input('Enter the length of adjacent leg of right triangle: '))
 
 class GeometricFigure(ABC):
 
